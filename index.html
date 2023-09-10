@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .image{
+            background-image: url("https://techcrunch.com/wp-content/uploads/2014/12/matrix.jpg");
+            background-size: cover;
+            height: 150pt;
+            
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body background="data:image/jpeg;base64,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">
+
+
+
+<script>
+        function fun() {
+let a =[]; 
+let c=[];
+let d=[];
+let m=0;
+var s=0;
+let b=[];
+let f=[];
+let y=0;
+let g=[];
+
+for (let i=1;i<=8;i++){
+a[i] = document.getElementById(`red${i}`).value;
+b[i] = document.getElementById(`blue${i}`).value;
+c[i]=parseInt(a[i]);
+d[i]=parseInt(b[i]);
+
+s+=c[i];
+
+m+=c[i]*d[i];
+
+
+
+
+}
+
+document.getElementById('really').innerHTML=`Frequency==${s}`;
+console.log(s);
+console.log(m);
+let z=(m/s).toFixed(2);
+
+
+document.getElementById('green').innerHTML=`Mean ==${z}`;
+console.log(z);
+for (let i=1;i<=8;i++){
+f[i]=((d[i]-z)**2).toFixed(2);
+
+ 
+g[i]=(f[i]*c[i]).toFixed(2);
+
+
+
+document.getElementById(`nice${i}`).innerHTML=g[i];
+y+= parseInt(g[i]) ;
+console.log (y);
+
+}
+document.getElementById('nice9').innerHTML=`sum of all=${y}`
+let sd= ((y/s)**0.5).toFixed(2);
+console.log(sd);
+
+
+document.getElementById('sd').innerHTML=`YOUR S.D==${sd}`
+        }
+    </script>
+    <div class="image">
+        
+    </div>
+    <div class = "container-fluid" style="background-color: black; background-size:cover ;height: 50pt;">
+        <div class="row">
+            <div class="col-2"><p style="font-size: 25pt; color: turquoise;">-Parlee</p></div>
+            <div class="col-10">
+                
+<p class="text-white text-center" style="margin-top: 15pt;">
+    Hello, and welecome to site. Make sure to fill all text, if you have less than 8 classes. put value 0
+</p>
+</div>
+</div>
+</div>
+
+    <br>
+    <p style="margin-left: 410pt; font-weight: bolder; font-size: 25px; border: ;" class="">Frequency-------Midvalue</p>
+    <form action="" style="margin-left: 380pt; border: solid 2px; margin-right: 300pt;" class="text-center">
+        <input type="text" id="red1">
+        <input type="text" id="blue1" style="margin-left: 17pt;"><br>
+        <input type="text" id="red2">
+        <input type="text" id="blue2" style="margin-left: 17pt;"><br>
+        <input type="text" id="red3">
+        <input type="text" id="blue3" style="margin-left: 17pt;"><br>
+        <input type="text" id="red4">
+        <input type="text" id="blue4" style="margin-left: 17pt;"><br>
+        <input type="text" id="red5">
+        <input type="text" id="blue5" style="margin-left: 17pt;"><br>
+        <input type="text" id="red6">
+        <input type="text" id="blue6" style="margin-left: 17pt;"><br>
+        <input type="text" id="red7">
+        <input type="text" id="blue7" style="margin-left: 17pt;"><br>
+        <input type="text" id="red8">
+        <input type="text" id="blue8" style="margin-left: 17pt;"><br>
+        
+
+    </form>
+    <br>
+   <button onclick="fun()" class="btn btn-info" style="margin-left: 450pt;">Click here to get output of given inputs</button>
+<br>
+<br>
+<p id="really" style="font-weight: bold; color: teal; text-align: center;"></p>
+<p style="text-align: center; font-weight: bold;" id="green"></p>
+<br>
+
+<p style="background-color: yellow; margin-left: 480pt; margin-right: 470pt; font-weight: bold;">f*(m-X)^2</p>
+<div style="font-weight: bold; margin-right:430pt ; margin-left:430pt;  background-color: turquoise;"  >
+<p id="nice1"></p>
+<p  id="nice2"></p>
+<p id="nice3"></p>
+<p id="nice4"></p>
+<p id="nice5"></p>
+<p  id="nice6"></p>
+<p  id="nice7"></p>
+<p id="nice8"></p>
+<p  id="nice9"></p></div>
+<br>
+
+<p id="sd" style="text-align: center; font-weight: bold; color: yellow; font-size: 22pt;"></p>
+
+    
+</body>
+</html>
